@@ -1,4 +1,4 @@
-#!/usr/bine/env bash
+#!/usr/bin/env bash
 #Checker for commandline arguments
 
 if [ $# -lt 4 ]; then
