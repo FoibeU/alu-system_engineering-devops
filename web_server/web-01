@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#Log into my personal web
+#Log into my personal webserver
 
 eval $("ssh-agent")
 ssh-add ~/.ssh/school
