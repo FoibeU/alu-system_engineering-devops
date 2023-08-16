@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
 #Command to fix error
-
-echo "ServerName localhost" >> /etc/apache2.conf
-service apache2 start
+apt-get update && apt-get install apache2 -y
+sudo service apache2 restart
