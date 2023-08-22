@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
-#Command to fix error
-apt-get update && apt-get install apache2 -y
-sudo service apache2 restart
+#Scripts for fixing error
+
+apt-get update
+apt-get install -y curl
+echo "Hello Holberton" > /var/www/html/index.html
+service apache2 start
