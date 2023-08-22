@@ -1,7 +1,4 @@
 #!/usr/bin/env bash
-#Scripts for fixing error
-
-apt-get update
-apt-get install -y curl
-echo "Hello Holberton" > /var/www/html/index.html
+#Scripts for fixing errors
+echo "ServerName localhost" >> /etc/apache2.conf
 service apache2 start
